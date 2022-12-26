@@ -2,11 +2,17 @@
   "name": "nodejs_gb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "task_2.js",
   "scripts": {
+    "start": "node task_2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.3.0",
+    "moment": "^2.29.4",
+    "prompt-sync": "^4.2.0"
+  }
 }
